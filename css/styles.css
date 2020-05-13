@@ -1,5 +1,5 @@
 body{
-  font-family: "Montserrat"
+  font-family: "Ubuntu"
 }
 
 h1{
@@ -10,7 +10,7 @@ h1{
 }
 
 h2{
-  font-family: "Montserrat-Bold";
+  font-family: "Ubuntu";
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
@@ -18,7 +18,7 @@ h2{
 }
 
 h3{
-  font-family: "Montserrat-Bold";
+  font-family: "Ubuntu";
   font-weight: bold;
 }
 
@@ -30,12 +30,22 @@ p{
   /* Main Title */
 
 #title {
-  background-color: #2f2f2b;
-  color: #ff7129;
+  color: #fff;
+
 }
 
 .container-fluid{
   padding: 3% 15%;
+}
+
+.hero-image{
+  max-width: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.title-content{
+  margin-top: 15%;
 }
 
 /* Navigation Bar */
@@ -57,7 +67,7 @@ padding-left: 0;
 
 .nav-link{
   font-size: 1.2rem;
-  font-family: "Montserrat-light"
+  font-family: "Ubuntu"
 }
 
 /* Title content */
@@ -146,7 +156,7 @@ padding-left: 0;
 }
 
 .cta-heading{
-font-family: "Montserrat-Black";
+font-family: "Ubuntu";
 font-size: 3rem;
 line-height: 1.5;
 }
@@ -173,3 +183,4 @@ line-height: 1.5;
     transform: rotate(0);
   }
 }
+
